@@ -1,0 +1,128 @@
+.sign-up-button{
+  font-size: 300px;
+}
+
+.fluid-container {
+  height: 100vh;
+}
+
+p {
+  padding: 20px;
+  font-size: 17px;
+}
+
+.col-5,
+.col-7 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.col-7 img {
+  width: 100%;
+}
+
+#circle {
+  border-radius: 50px/50px;
+  border: solid 1px black;
+  width: 75px;
+  height: 75px;
+  left: 200px; 
+}
+
+.rounded-pill {
+  width: 65%;
+  height: 60px;
+}
+
+.btn {
+  width: 30%;
+  font-size: 25px;
+  left: 200px; 
+}
+
+.sign-up {
+  margin-bottom: 70px;
+  font-size: 4rem;
+}
+
+input {
+  margin: 2vh 0vw;
+}
+
+#circle {
+  margin: 0;
+  border-radius: 50px/50px;
+  border: solid 1px black;
+  width: 80px;
+  height: 80px;
+}
+
+#circle .icon {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.facebook-icon {
+  position: absolute;
+  left: 18%;
+  top: -20%;
+  transform: scale(0.5);
+}
+
+.twitter-icon {
+  position: absolute;
+  top: 13px;
+  left: 19%;
+  bottom: 10%;
+  transform: scale(0.8);
+}
+
+.google-icon {
+  position: absolute;
+  top: 13px;
+  left: 19%;
+  bottom: 8%;
+  transform: scale(0.8);
+}
+
+.sign-in-button{
+  left: 80px;
+}
+
+.rundown {
+  clip-path: ellipse(100% 150% at 12% -65%);
+}
+
+.linkedin-icon {
+  position: absolute;
+  top: 10px;
+  left: 20%;
+  bottom: 10%;
+  /* transform: scale(0.); */
+}
+
+.google {
+  max-width: 40%;
+  max-height: auto;
+}
+
+#input_container {
+  position: relative;
+  margin: 5vh 0;
+  left: 10vw;
+}
+
+#input_img {
+  position: absolute;
+  bottom: 1vw;
+  left: 2vw;
+  width: 35px;
+  height: 35px;
+}
+
+.col-6 img {
+  width: 50%;
+}

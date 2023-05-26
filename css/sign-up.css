@@ -1,0 +1,101 @@
+.fluid-container {
+    height: 100vh;
+}
+
+p {
+    padding: 20px;
+    font-size: 17px;
+}
+
+.col-5 {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.col-7 img {
+    width: 100%;
+}
+
+#circle {
+    -moz-border-radius: 50px/50px;
+    -webkit-border-radius: 50px 50px;
+    border-radius: 50px/50px;
+    border: solid 1px black;
+    width: 75px;
+    height: 75px;
+}
+
+.rounded-pill {
+    width: 65%; 
+    height: 60px;
+}
+/* messing around with block above */
+
+.btn {
+    width: 30%;
+    font-size: 25px;
+}
+
+.sign-up {
+    margin-bottom: 70px;
+    font-size: 4rem;
+
+}
+
+.woman {
+    max-width: 50vw;
+    margin-top: 7vh;
+    
+}
+
+input {
+    margin: 2vh 0vw;
+}
+
+#circle {
+    margin: 0;
+    border-radius: 50px/50px;
+    border: solid 1px black;
+    width: 80px;
+    height: 80px;
+}
+
+#circle .icon {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.google {
+    max-width: 40%;
+    max-height: auto;
+}
+
+#input_container {
+    position:relative;
+    /* padding:0 0 0 20px; */
+    margin:5vh 0;
+    /* width: 200px; */
+  }
+  #input {
+    /* height:20px; */
+    margin:0;
+    /* padding-right: 30px; */
+    /* width: 100%; */
+  }
+  #input_img {
+    position:absolute;
+    bottom:2px;
+    left: 8vw;
+    width:35px;
+    height:35px;
+  }
+
+@media only screen and (max-width: 992px){
+    .woman, .col-7 {
+        display: none;
+    }
+}
