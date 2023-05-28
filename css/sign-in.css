@@ -1,14 +1,5 @@
-.sign-up-button{
-  font-size: 300px;
-}
-
 .fluid-container {
   height: 100vh;
-}
-
-p {
-  padding: 20px;
-  font-size: 17px;
 }
 
 .col-5,
@@ -22,14 +13,6 @@ p {
   width: 100%;
 }
 
-#circle {
-  border-radius: 50px/50px;
-  border: solid 1px black;
-  width: 75px;
-  height: 75px;
-  left: 200px; 
-}
-
 .rounded-pill {
   width: 65%;
   height: 60px;
@@ -41,9 +24,18 @@ p {
   left: 200px; 
 }
 
+.sign-up-button{
+  font-size: 300px;
+}
+
 .sign-up {
   margin-bottom: 70px;
   font-size: 4rem;
+}
+
+p {
+  padding: 20px;
+  font-size: 17px;
 }
 
 input {
@@ -56,6 +48,21 @@ input {
   border: solid 1px black;
   width: 80px;
   height: 80px;
+}
+
+#circle .icon {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+#circle {
+  border-radius: 50px/50px;
+  border: solid 1px black;
+  width: 75px;
+  height: 75px;
+  left: 200px; 
 }
 
 #circle .icon {
