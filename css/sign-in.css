@@ -2,17 +2,6 @@
   height: 100vh;
 }
 
-.col-5,
-.col-7 {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-}
-
-.col-7 img {
-  width: 100%;
-}
-
 .rounded-pill {
   width: 65%;
   height: 60px;
@@ -25,12 +14,12 @@
 }
 
 .sign-up-button{
-  font-size: 300px;
+  font-size: 250px;
+  margin-top: 40px;
 }
 
 .sign-up {
   margin-bottom: 70px;
-  font-size: 4rem;
 }
 
 p {
@@ -38,8 +27,11 @@ p {
   font-size: 17px;
 }
 
-input {
-  margin: 2vh 0vw;
+boxstuff {
+  position: relative;
+  margin: 16px 10px; 
+  padding-top: 15px;
+  top: 70%;
 }
 
 #ring {
@@ -108,7 +100,6 @@ input {
   top: 10px;
   left: 20%;
   bottom: 10%;
-  /* transform: scale(0.); */
 }
 
 .google {
@@ -116,15 +107,15 @@ input {
   max-height: auto;
 }
 
-#input_container {
+#simple-box {
   position: relative;
   margin: 5vh 0;
   left: 10vw;
 }
 
-#input_img {
+#image_icon {
   position: absolute;
-  bottom: 1vw;
+  bottom: 3px;
   left: 2vw;
   width: 35px;
   height: 35px;

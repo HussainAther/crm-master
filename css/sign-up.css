@@ -1,16 +1,5 @@
-@media only screen and (max-width: 950px){
-    .person, .col-7 {
-        display: none;
-    }
-}
-
 .fluid-container {
-    height: 100vh;
-}
-
-p {
-    padding: 20px;
-    font-size: 17px;
+    height: 90vh;
 }
 
 .col-5 {
@@ -19,17 +8,12 @@ p {
     width: 100%;
 }
 
-.col-7 img {
+.col-fin img {
     width: 100%;
 }
 
 #ring {
-    -moz-border-radius: 50px/50px;
-    -webkit-border-radius: 50px 50px;
-    border-radius: 50px/50px;
-    border: solid 1px black;
-    width: 75px;
-    height: 75px;
+
 }
 
 .rounded-pill {
@@ -42,9 +26,8 @@ p {
     font-size: 25px;
 }
 
-.sign-up {
+.sign-up-text {
     margin-bottom: 70px;
-    font-size: 4rem;
 }
 
 .person {
