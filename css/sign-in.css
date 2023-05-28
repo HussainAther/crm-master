@@ -1,5 +1,5 @@
 .fluid-container {
-  height: 100vh;
+  height: 110vh;
 }
 
 .rounded-pill {
@@ -36,21 +36,14 @@ boxstuff {
 
 #ring {
   margin: 0;
-  border-radius: 50px/50px;
+  border-radius: 40px/40px;
   border: solid 1px black;
-  width: 80px;
-  height: 80px;
-}
-
-#ring .icon {
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
 }
 
 #ring {
-  border-radius: 50px/50px;
+  border-radius: 40px/40px;
   border: solid 1px black;
   width: 75px;
   height: 75px;
@@ -109,18 +102,18 @@ boxstuff {
 
 #simple-box {
   position: relative;
-  margin: 5vh 0;
+  margin: 4vh 0;
   left: 10vw;
 }
 
 #image_icon {
+  width: 35px;
   position: absolute;
   bottom: 3px;
   left: 2vw;
-  width: 35px;
   height: 35px;
 }
 
-.col-6 img {
-  width: 50%;
+.col-5 img {
+  width: 55%;
 }
