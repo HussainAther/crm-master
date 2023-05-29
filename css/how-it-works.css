@@ -7,11 +7,11 @@
 }
 
 .firstcard{
-    background-color: #0750F8;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    min-height: 400px;
-    padding-top: 6vh;
+    border-top-right-radius: 9px;
+    background-color: blue; 
+    border-bottom-right-radius: 9px;
+    padding-top: 48px;
+    min-height: 350;
     
 }
 
@@ -27,6 +27,12 @@
     width: 110%;
     background-color: #FFFFFF; 
     display: flex;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
 }
 
 .tbtn{
@@ -62,14 +68,28 @@ hr{
     margin-top: 36px ;
 }
 
-.card{
-    max-width: 80%;
-    margin-left: 18%;
-    margin-right: 18%;
+.cardslot{
+    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
     border-radius: 20px;
     min-height: 410px;
     color: white; 
 }
+
+.title {
+    font-size: 64px;
+  }
+  
+.subtitle {
+font-size: 48px;
+}
+  
+.description {
+font-size: 20px;
+font-weight: medium;
+color: #999999; 
+} 
 
 .paragraph{
     padding: 40px 360px;
@@ -80,8 +100,7 @@ hr{
 }
 
 ul li:last-child:after{
-    content:"";
-    letter-spacing: 8px;
+    letter-spacing: 10px;
 }
 
 .section-image{
