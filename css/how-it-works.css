@@ -1,0 +1,122 @@
+.footer-words {
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: 19%;
+}
+
+.firstcard{
+    background-color: #0750F8;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 400px;
+    padding-top: 6vh;
+    
+}
+
+.sbtn{
+    margin-left: 15%;
+}
+
+.navPic{
+    max-width: 20%;
+}
+
+.navbar{
+    width: 110%;
+    background-color: #FFFFFF; 
+    display: flex;
+}
+
+.tbtn{
+    margin-left: 1%;
+}
+
+.firstimg{
+    max-height: 744px;
+}
+
+.sometext{
+    padding-left: 9%;
+    padding-top: 2%;
+    line-height: 1.6;
+}
+
+ul .nav-item{
+    padding-left: 16px;
+}
+
+.btnthing{
+    margin:27px 0;
+}
+
+hr{
+    border: 1px solid #d3d3d3;
+    border-radius: 45%;
+    max-width: 68%;
+}
+
+
+.paragraph p{
+    margin-top: 36px ;
+}
+
+.card{
+    max-width: 80%;
+    margin-left: 18%;
+    margin-right: 18%;
+    border-radius: 20px;
+    min-height: 410px;
+    color: white; 
+}
+
+.paragraph{
+    padding: 40px 360px;
+}
+
+#card{
+    border:0;
+}
+
+ul li:last-child:after{
+    content:"";
+    letter-spacing: 8px;
+}
+
+.section-image{
+    max-width: 80%;
+    padding-top: 15px;
+}
+.seepic{
+    padding-top: 32px;
+    padding-left: 32px;
+}
+section ul li::after{
+    color: blue;
+    letter-spacing: 8px;
+}
+footer ul li::after{
+    letter-spacing: 8px;
+}
+
+footer{
+    padding: 40px 0;
+    margin-top: 48px;
+    background-color: blue ;
+    max-width: 140%;
+    line-height: 3.5;
+}
+
+.separator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 900px;
+}
