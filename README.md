@@ -6,5 +6,5 @@ Initially, one team member (referred to as the "Original Team Member") will be r
 
 ## Authors
 * Syed Hussain Ather (sign-in.html, sign-up.html, sign-in.css, sign-up.css)
-* Arthur Victory 
+* Arthur Victory (index.html, styles.css) 
 * F Sanchez
